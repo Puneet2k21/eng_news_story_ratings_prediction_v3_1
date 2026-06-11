@@ -297,11 +297,11 @@ if st.session_state['authentication_status']:
         "The predicted value tier is determined based on a five-point scale, ranging from lowest (Tier:1) to highest (Tier:5). "
         "The tiers are categorized as follows:\n\n"
         
-        "• **Predicted Tier: 1 - Minimal Viewership**: Less than 112 TVTs  \n"
-        "• **Predicted Tier: 2 - Low Viewership**: 112 to 144 TVTs  \n"
-        "• **Predicted Tier: 3 - Average Viewership**: 144 to 195 TVTs  \n"
-        "• **Predicted Tier: 4 - High Viewership**: 195 to 272 TVTs  \n"
-        "• **Predicted Tier: 5 - Maximum Viewership**: 272 TVTs and above."
+        "• **Predicted Tier: 1 - Minimal Viewership**: Less than 0.2 TVTs  \n"
+        "• **Predicted Tier: 2 - Low Viewership**: 0.2 to 1.2 TVTs  \n"
+        "• **Predicted Tier: 3 - Average Viewership**: 1.2 to 2.2 TVTs  \n"
+        "• **Predicted Tier: 4 - High Viewership**: 2.2 to 3.9 TVTs  \n"
+        "• **Predicted Tier: 5 - Maximum Viewership**: 3.9 TVTs and above."
 )
         st.markdown(note)
 
