@@ -258,7 +258,7 @@ if st.session_state['authentication_status']:
 #Better models influence prediction more
 
         # ----------------------------------------
-        weights = [0.0982, 0.0939, 0.0982, 0.1052, 0.0973, 0.0972, 0.1025, 0.0990, 0.1078]  # From your F1 scores
+        weights = [0.0967, 0.0978, 0.0991, 0.1049, 0.0986, 0.0966, 0.1026, 0.0993,0.1060, 0.0984]  # From your F1 scores
 
 #Each model predicts probability distribution.
 #Combines predictions from all 10 models
